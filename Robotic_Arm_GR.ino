@@ -14,7 +14,7 @@ MePort limitSwitch(PORT_7);
 Servo svs[1] = {Servo()};
 MeStepperOnBoard steppers[3] = {MeStepperOnBoard(PORT_1),MeStepperOnBoard(PORT_2),MeStepperOnBoard(PORT_3)}; 
 
-// Vectores para guadrar los límites de las articulaciones que calcularemos
+// Vectores para guardar los límites de las articulaciones que calcularemos
 float qlimit_0[2] = {0.0,0.0};
 float qlimit_1[2] = {0.0,0.0};
 float qlimit_2[2] = {0.0,0.0};
